@@ -10,6 +10,6 @@ int main() {
     area = side * side;
 
     cout << "Area of the square = " << area << endl;
-
+    cout << "Thank you !";
     return 0;
 }
