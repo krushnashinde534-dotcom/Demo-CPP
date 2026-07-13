@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr1[] = {1, 3, 5};
+    int arr2[] = {2, 4, 6};
+
+    int n1 = 3, n2 = 3;
+    int merged[6];
+
+    // Copy first array
+    for (int i = 0; i < n1; i++) {
+        merged[i] = arr1[i];
+    }
+
+    // Copy second array
+    for (int i = 0; i < n2; i++) {
+        merged[n1 + i] = arr2[i];
+    }
+
+    // Print merged array
+    cout << "Merged Array: ";
+    for (int i = 0; i < n1 + n2; i++) {
+        cout << merged[i] << " ";
+    }
+
+    return 0;
+}
