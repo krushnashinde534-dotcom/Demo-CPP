@@ -19,6 +19,7 @@ int main() {
         if (!duplicate)
             cout << arr[i] << " ";
     }
+    cout<<"Thank you for using this program. It was created by Shinde Krushna.";
 
     return 0;
 }
