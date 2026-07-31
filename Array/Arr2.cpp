@@ -18,6 +18,7 @@ int main() {
     cout << "Positive = " << positive << endl;
     cout << "Negative = " << negative << endl;
     cout << "Zero = " << zero << endl;
+    cout<<"Thank you"<<endl;
 
     return 0;
 }
